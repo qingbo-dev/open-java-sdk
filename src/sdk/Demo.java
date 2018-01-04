@@ -16,8 +16,9 @@ public class Demo {
 	private static final String METHOD_GET = "GET";
 	private static final String METHOD_POST = "POST";
 	private static final String URL = "http://api.gsdata.cn/weixin/v1/tests";
-	private static final String APPKEY = "6Z003el1dHU8eKtjIle8mJyYxpPDoJNr";
-	private static final String APPID = "19";
+	// 开放平台(open.gsdata.cn/user)中我的应用可见 app_key 和 app_id
+	private static final String APPKEY = "xxxxxx";
+	private static final String APPID = "xxx";
 	public static void main(String[] args) {
 		//请求参数
 		Map<String , Object> params = new HashMap<String , Object>();
